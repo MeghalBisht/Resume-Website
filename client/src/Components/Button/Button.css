@@ -1,0 +1,110 @@
+.dark .button a{
+    color: #4dfa6c;
+}
+
+.dark .button a:hover{
+    color: var(--main-text);
+    background: #4dfa6c;
+    box-shadow: 0 0 10px #4dfa6dd7, 0 0 20px #4dfa6dd7, 0 0 25px #4dfa6dd7;
+} 
+
+.button a{
+    border-radius: 4px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: var(--dark-green);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.button a:hover{
+    color: var(--light);
+    opacity: 0.89;
+    background: var(--dark-green);
+    transition-delay: .9s;
+    box-shadow: 0 0 10px var(--dark-green2), 0 0 20px var(--dark-green2), 0 0 25px var(--dark-green2);
+}
+
+.button a span{
+    position: absolute;
+    display: block;
+}
+
+.button a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,var(--dark-green));
+}
+
+.dark .button a span:nth-child(1){
+    background: linear-gradient(90deg, transparent,#4dfa6c);
+}
+
+.button a:hover span:nth-child(1){
+    left: 100%;
+    transition: .8s;
+}
+
+.button a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,var(--dark-green));
+}
+
+.dark .button a span:nth-child(3){
+    background: linear-gradient(270deg, transparent,#4dfa6c);
+}
+
+.button a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: .4s;
+}
+
+.button a span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,var(--dark-green));
+}
+
+.dark .button a span:nth-child(2){
+    background: linear-gradient(180deg, transparent,#4dfa6c);
+}
+
+.button a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: .2s;
+}
+
+.button a span:nth-child(4){
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,var(--dark-green));
+}
+
+.dark .button a span:nth-child(4){
+    background: linear-gradient(360deg, transparent,#4dfa6c);
+}
+
+
+.button a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .6s;
+}

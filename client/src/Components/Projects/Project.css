@@ -1,0 +1,139 @@
+.bg-underlay-project{
+    right: 0;
+    background-color: #fad458;
+  }
+
+.project-content h1{
+    color: #fad458;
+}
+
+.inner-details p{
+  letter-spacing: .7px;
+}
+
+.project-list{
+  z-index: 99;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.project-list img{
+  z-index: 99;
+  opacity: 1;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.project-wrapper{
+  max-width: 610px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.project-wrapper::after{
+  content: "";
+  height: 100%;
+  width: 3px;
+  background-color: #fad458;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  z-index: 9999;
+  top: -300px;
+  transition: all .4s ease-in-out;
+}
+
+.project-wrapper::before{
+  content: "";
+  height: 100%;
+  width: 3px;
+  background-color: #fad458;
+  position: absolute;
+  top: 0;
+  right: 8px;
+  z-index: 9999;
+  top: 300px;
+  transition: all .4s ease-in-out;
+}
+
+.project-wrapper:hover::after{
+  top: 0;
+  transition: all .6s ease-in-out;
+}
+
+.project-wrapper:hover::before{
+  top: 0;
+  transition: all .6s ease-in-out;
+}
+
+.project-wrapper:hover .project-details{
+  display: flex;
+  opacity: 1;
+  transition: all 5s ease-in-out;
+}
+
+.project-wrapper .project-details{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.67;
+  transition: all 5s ease-in-out;
+}
+
+.project-wrapper .project-bg{
+  width: 100%;
+  height: 100%;
+  opacity: 0.87;
+  background-color: #000;
+}
+
+.project-wrapper .inner-details{
+  color: #fff;
+  opacity: 1;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  position: absolute;
+}
+
+.project-wrapper .inner-details a{
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.project-wrapper .inner-details a:hover{
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fad458;
+}
+
+@media screen and (max-width:500px){
+  .project-wrapper{
+    margin: 10px 0 ;
+  }
+  .project-list img{
+    min-height: 250px;
+  }
+}

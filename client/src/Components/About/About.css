@@ -1,0 +1,79 @@
+.bg-underlay-about{
+    right: 0;
+    background-color: #fad458;
+  }
+
+  .about-content{
+      padding: 0 40px;
+      z-index: 99;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .about-content a{
+    text-decoration: none;
+    color: #f5bd04;
+    letter-spacing: 1px;
+  }
+
+  .dark .about-content a{
+    color: #fad458;
+  }
+
+  .about-content h1{
+      color: #fad458 !important;
+  }
+
+  .about-content p{
+      margin: 0.5rem 0;
+      font-weight: 700;
+      text-align: center;
+      font-size: 18px;
+      color: var(--sec-text);
+  }
+
+  .about-icons{
+     display: flex;
+     margin: 1.5rem 0;
+     justify-content: space-around;
+     align-items: center;
+     width: 30vw;
+  }
+
+  .about-icons .icons{
+      /* box-shadow: 0 -3px 3px #6b2a2a3a,
+      inset 0 -3px 3px #6b2a2a3a,
+       0 3px 3px #6b2a2a3a,
+      inset 0 3px 3px #6b2a2a3a; */
+      color: #fad458;
+      opacity: 1;
+      font-size: 2.8rem !important;
+      transition: transform 0.2s ease;
+    }
+    
+    .about-icons .icons:hover{
+        opacity: 0.79;
+      cursor: pointer;
+      transform: translateY(-5px);
+  }
+
+
+  @media screen and (max-width: 990px){
+    .about-icons{
+        width: 60vw;
+    }
+  }    
+
+  @media screen and (max-width: 490px){
+    .about-icons{
+        width: 80vw;
+    }
+  }    
+
+/* DARK MODE  */
+
+.dark .about-content p{
+  color: var(--lighter);
+}

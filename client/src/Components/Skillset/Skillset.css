@@ -1,0 +1,112 @@
+.skillset h1 {
+  color: #f5885d;
+}
+
+.skillset{
+  padding-bottom: 60px;
+}
+
+.bg-underlay-skillset {
+  left: 0;
+  background-color: #f5885d;
+  opacity: 0.07;
+}
+
+.skillset-content {
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-wrap {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.skill-wrap h3 {
+  margin: 0 0 10px 0;
+}
+
+.skill-wrap div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skill-wrap h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--dark);
+}
+
+.skill-wrap div p{
+  background: var(--lighter);
+  border-radius: 50px;
+  padding: 8px;
+  margin: 12px 7px;
+  text-align: center;
+  color: var(--main-text);
+  font-size: 16px;
+  box-shadow: -5px -5px 10px rgba(255,255,255,0.4),
+  5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.skill-wrap div p:hover{
+  color: #f5885d;
+  cursor: default;
+  box-shadow: inset -2px -2px 6pc rgba(255,255,255,0.2),
+  inset 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 736px) {
+  .skill-wrap div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skill-wrap {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .skill-wrap div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skill-wrap {
+    margin: 5px 0;
+  }
+}
+
+/* DARK MODE  */
+
+.dark .skill-wrap div p{
+  background: var(--main-text);
+  color: var(--lighter);
+  box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+  5px 5px 15px rgba(0,0,0,0.7);
+}
+
+.dark .skill-wrap div p:hover{
+  color: #fcd145;
+  box-shadow: inset -2px -2px 6pc rgba(255,255,255,0.02),
+  inset 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+ .skillset h3 {
+    color: #f5885d;
+    opacity: 0.86;
+}
+
+.dark .skillset h3{
+  color: yellow;
+  opacity: 0.59;
+}
+
+.dark .skillset h1{
+  opacity: 0.87;
+  color: yellow;
+}
+
+.dark .skill-wrap div p:hover{
+  color: yellow;
+}

@@ -1,0 +1,171 @@
+.myself{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+}
+
+.bg-underlay-myself{
+  left: 0;
+  background-color: #4dfa6c;
+}
+
+.sonar-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .sonar-emitter {
+    position: relative;
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    border-radius:50%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sonar-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: green;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .sonar-wave {
+    animation: sonarWave 1.3s linear infinite;
+  }
+  
+  @keyframes sonarWave {
+    from {
+      opacity: 0.69;
+    }
+    to {
+      transform: scale(1.25);
+      opacity: 0;
+    }
+  }
+  
+
+.myself img{
+    height: 180px;
+    margin-bottom: 1.1rem;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.myself-content{
+  z-index: 9;
+}
+
+.myself .line1{
+    font-size: 1.4rem;
+    font-family: 'Rubik' !important;
+    letter-spacing: 0.5px;
+    padding: 0;
+    color: var(--dark);
+    margin: 5px 0;
+}
+
+.myself .line2{
+    font-size: 2.3rem;
+    font-family: 'Rubik' !important;
+    letter-spacing: 1px;
+    color: var(--dark-green);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.myself .line3, .line4{
+    font-size: 3.5rem;
+    font-family: 'Rubik' !important;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: var(--sec-text);
+}
+
+.myself .line4{
+  display: none;
+}
+
+.myself button{
+    outline: none;
+    border:1.5px solid var(--dark-green);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    background-color: transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: var(--dark-green);
+  }
+  
+  .myself button:hover{
+    color: var(--light);
+    background-color: var(--dark-green);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px){
+.myself .line1{
+  font-size: 1.2rem;
+}
+
+.myself .line2{
+  font-size: 2.3rem;
+}
+
+.myself .line3{
+  font-size: 3.2rem;
+}
+}
+
+@media screen and (max-width: 870px){
+.myself .line3{
+  font-size: 2.7rem;
+}
+}
+
+@media screen and (max-width: 727px){
+
+.myself .line3{
+  font-size: 2.2rem;
+  display: none;
+}
+
+.myself .line4{
+  margin-top: 10px;
+  font-size: 1.9rem;
+  display: block;
+}
+}
+
+/* DARK MODE  */
+.dark .myself .line1,
+.dark .myself .line3,
+.dark .myself .line4{
+  color: var(--lighter);
+}
+
+.dark .myself .line2{
+  color: #4dfa6c;
+}
+
+.dark .myself button{
+  border:1px solid #4dfa6c;
+  color: var(--light);
+  background-color: transparent;
+}
+
+.dark .myself button:hover{
+  color: var(--main-text);
+  background-color: #4dfa6c;
+}
