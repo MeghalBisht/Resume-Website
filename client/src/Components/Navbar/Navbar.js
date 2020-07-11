@@ -13,6 +13,11 @@ function Navbar() {
   });
 
   const [show, setShow] = useState(window.innerWidth <= 600 ? false : true);
+  const linkHandler = () =>{
+    if(window.innerWidth <= 600){
+      setShow(false)
+    }
+  }
 
   return (
     <div className="navbar">
@@ -23,14 +28,14 @@ function Navbar() {
         <AddCircleIcon className="nav-icon" />
       </div>
       <ul className={show ? "nav-list" : "hide"}>
-        <Link onClick={() => setShow(false)} to="myself" smooth duration={1000}>
+        <Link onClick={linkHandler} to="myself" smooth duration={1000}>
           <li>Myself</li>
         </Link>
-        <Link onClick={() => setShow(false)} to="skills" smooth duration={1000}>
+        <Link onClick={linkHandler} to="skills" smooth duration={1000}>
           <li>Skillset</li>
         </Link>
         <Link
-          onClick={() => setShow(false)}
+          onClick={linkHandler}
           to="projects"
           smooth
           duration={1000}
@@ -38,7 +43,7 @@ function Navbar() {
           <li>Projects</li>
         </Link>
         <Link
-          onClick={() => setShow(false)}
+          onClick={linkHandler}
           to="contact"
           smooth
           duration={1000}
