@@ -9,6 +9,7 @@
   --sec-text: #4e4e4e;
   --dark-green: #1f5f58;
   --dark-green2: #27726993;
+  --dark-green3: #43978d93;
 }
 
 .App {
@@ -48,6 +49,10 @@
 
 .dark .bg-underlay{
   display: none;
+}
+
+.dark .sonar-wave{
+  background-color: #41d45c;
 }
 
 .page {

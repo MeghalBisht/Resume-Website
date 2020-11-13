@@ -49,7 +49,7 @@ function About() {
           </Tooltip>
 
           <Tooltip title="mailtomeghu25@gmail.com" placement="right-start">
-            <a href="#!" rel="noopener noreferrer" target="_blank">
+            <a href="mailto:mailtomeghu25@gmail.com" rel="noopener noreferrer" target="_blank">
               <EmailIcon className="icons" />
             </a>
           </Tooltip>

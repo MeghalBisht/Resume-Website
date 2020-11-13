@@ -99,7 +99,7 @@ function Contact() {
             id="message"
             value={formFields.message}
             onChange={formInputHandler}
-            rows="8"
+            rows="9"
             placeholder="Your message here.."
           />
           <button className="form-btnn" disabled={loading ? true: false} type="submit">
