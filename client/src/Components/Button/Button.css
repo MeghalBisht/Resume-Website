@@ -5,7 +5,7 @@
 .dark .button a:hover{
     color: var(--main-text);
     background: #4dfa6c;
-    box-shadow: 0 0 10px #4dfa6dd7, 0 0 20px #4dfa6dd7, 0 0 25px #4dfa6dd7;
+    /* box-shadow: 0 0 10px #4dfa6dd7, 0 0 20px #4dfa6dd7, 0 0 25px #4dfa6dd7; */
 } 
 
 .button a{
@@ -29,7 +29,7 @@
     opacity: 0.89;
     background: var(--dark-green);
     transition-delay: .9s;
-    box-shadow: 0 0 10px var(--dark-green2), 0 0 20px var(--dark-green2), 0 0 25px var(--dark-green2);
+    box-shadow: 0 0 10px var(--dark-green3), 0 0 10px var(--dark-green3), 0 0 10px var(--dark-green3);
 }
 
 .button a span{

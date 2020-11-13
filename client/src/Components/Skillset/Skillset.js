@@ -23,14 +23,12 @@ function Skillset() {
             <p>JQuery</p>
             <p>Redux</p>
             <p>Next.js</p>
-            <p>Gatsby</p>
             <p>GraphQL</p>
-            <p>Apollo</p>
             <p>HTML</p>
             <p>CSS(SCSS)</p>
             <p>Bootstrap</p>
             <p>MaterialUI</p>
-            <p>Wordpress</p>
+            <p>PWAs</p>
           </div>
         </div>
         <div className="skill-wrap">

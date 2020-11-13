@@ -9,7 +9,7 @@
 
 .bg-underlay-myself{
   left: 0;
-  background-color: #4dfa6c;
+  background-color: #4eec6b;
 }
 
 .sonar-wrapper {
@@ -33,7 +33,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: green;
+    background-color: var(--dark-green);
     opacity: 0;
     z-index: -1;
     pointer-events: none;
@@ -45,7 +45,7 @@
   
   @keyframes sonarWave {
     from {
-      opacity: 0.69;
+      opacity: 0.59;
     }
     to {
       transform: scale(1.25);
