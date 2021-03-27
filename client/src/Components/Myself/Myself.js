@@ -23,10 +23,10 @@ function Myself() {
           Meghal Bisht
         </Typography>
         <Typography className="line3" variant="h2" gutterBottom>
-          {` < upcoming Software Engineer >`}
+          {` < Software Developer >`}
         </Typography>
         <Typography className="line4" variant="h2" gutterBottom>
-          upcoming Software Engineer
+          Software Developer
         </Typography>
         <Link
           to="contact"

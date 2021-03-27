@@ -36,6 +36,14 @@ function Navbar() {
         </Link>
         <Link
           onClick={linkHandler}
+          to="workExp"
+          smooth
+          duration={1000}
+        >
+          <li>Work Experience</li>
+        </Link>
+        <Link
+          onClick={linkHandler}
           to="projects"
           smooth
           duration={1000}

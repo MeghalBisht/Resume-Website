@@ -29,7 +29,7 @@ function Contact() {
     if (!name || !email || !message) {
       setLoading(false)
       setAlert(true);
-      setAlertMessage("Found missing fields!");
+      setAlertMessage("Duh, name, email or message cannot be empty!");
       return
     }
     axios

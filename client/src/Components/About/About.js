@@ -12,16 +12,8 @@ function About() {
       <div className="about-content">
         <h1>About Me</h1>
         <p>
-          I am Meghal Bisht, a 20 year old undergraduate student. Currently, I
-          am in 3rd year persuing BTech in (C.S.E) from <a rel="noopener noreferrer" target="_blank" href="http://aiactr.ac.in/">AIACTR</a>, Delhi.
-        </p>
-        <p>
-          I currently work with MERN stack with javascript & typescript as my
-          main languages.
-        </p>
-        <p>
-          I am specialized in developing web apps with creative UIs and modern
-          backends.
+          Myself Meghal Bisht, a 20 year old undergraduate student. Currently, I
+          am in 3rd year persuing BTech in (C.S.E) from <a rel="noopener noreferrer" target="_blank" href="http://aiactr.ac.in/">AIACTR (NSUT East Campus)</a>, Delhi.
         </p>
         <p>
           Following below are links to my profile to know more about me, and the

@@ -1,0 +1,25 @@
+.bg-underlay-work{
+    right: 0;
+    background-color: #9158fad2;
+  }
+
+.work-content h1{
+    color: #8545fc;
+}
+
+.inner-details p{
+  letter-spacing: .7px;
+}
+
+.work-wrapper::after{
+  background-color: #8545fc !important;
+}
+
+.work-wrapper::before{
+  background-color: #8545fc !important;
+}
+
+.work-wrapper .inner-details a:hover{
+  background-color: #8545fc !important;
+  color: white !important;
+}

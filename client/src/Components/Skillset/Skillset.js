@@ -12,6 +12,7 @@ function Skillset() {
           <div>
             <p>Javascript</p>
             <p>Typescript</p>
+            <p>Python</p>
             <p>C++</p>
             <p>C</p>
           </div>
@@ -20,7 +21,7 @@ function Skillset() {
           <h3>Front End</h3>
           <div>
             <p>ReactJS</p>
-            <p>JQuery</p>
+            <p>EmberJS</p>
             <p>Redux</p>
             <p>Next.js</p>
             <p>GraphQL</p>
@@ -28,7 +29,6 @@ function Skillset() {
             <p>CSS(SCSS)</p>
             <p>Bootstrap</p>
             <p>MaterialUI</p>
-            <p>PWAs</p>
           </div>
         </div>
         <div className="skill-wrap">
@@ -36,16 +36,18 @@ function Skillset() {
           <div>
             <p>NodeJS</p>
             <p>MongoDB</p>
-            <p>Mongoose</p>
             <p>Express</p>
+            <p>Flask</p>
+            <p>Mongoose</p>
+            <p>Postgres</p>
+            <p>SQL</p>
           </div>
         </div>
         <div className="skill-wrap">
           <h3>Other</h3>
           <div>
-            <p>Figma</p>
             <p>Git & Github</p>
-            <p>Adobe Illustrator</p>
+            <p>Figma</p>
           </div>
         </div>
       </div>

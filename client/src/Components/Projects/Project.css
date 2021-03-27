@@ -1,5 +1,5 @@
 .bg-underlay-project{
-    right: 0;
+    left: 0;
     background-color: #fad458;
   }
 
@@ -22,6 +22,8 @@
 
 .project-list img{
   z-index: 99;
+  min-width: 250px;
+  height: 290px;
   opacity: 1;
   object-fit: cover;
   width: 100%;

@@ -1,11 +1,14 @@
 .bg-underlay-contact {
-  left: 0;
-  background-color: #4dfa6c;
-  opacity: 0.17;
+  right: 0;
+  background-color: #080a92;
 }
 
 .contact{
   padding-bottom: 50px;
+}
+
+.contact-content h1 {
+  color: rgb(0, 0, 255);
 }
 
 .success-msg{
@@ -15,17 +18,13 @@
 }
 
 .success-msg .icon{
-  color: rgb(35, 153, 41);
+  color: #567bf1;
   margin-left: 7px;
   font-size: 21px !important;
 }
 
 .contact-content {
   z-index: 99;
-}
-
-.contact-content h1 {
-  color: var(--dark-green);
 }
 
 .contact-content form {
@@ -43,7 +42,7 @@
   padding: 15px 12px;
   resize: none;
   width: 100%;
-  border-radius: 14px;
+  border-radius: 6px;
   outline: none;
   border: 0px;
 }
@@ -51,7 +50,6 @@
 .form input:focus,
 .form textarea:focus {
   outline: none;
-  border: 1px solid var(--dark);
 }
 
 .alert{
@@ -75,18 +73,18 @@
 
 /* DARK MODE  */
 .dark .contact-content h1{
-  color: #4dfa6c;
+  color: rgb(7, 7, 250);
 }
 
 
 .dark .form input:focus,
 .dark .form textarea:focus{
-  border-left: 5px solid #4dfa6c;
+  border-left: 5px solid rgb(0, 0, 165);
 }
 
 .form input:focus,
 .form textarea:focus{
-  border-left: 5px solid var(--dark-green);
+  border-left: 4px solid rgb(0, 0, 165);
 }
 
 .form-btnn{
@@ -96,13 +94,13 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.4px;
-  color: var(--dark-green);
-  background: var(--lighter);
+  color: rgb(0, 0, 165);
+  background: #dde3fd;
   border-radius: 30px;
   margin: 20px 7px;
   text-align: center;
   font-size: 16px;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5),
+  box-shadow: -5px -5px 10px rgba(192, 192, 192, 0.5),
   5px 5px 10px rgba(0, 0, 0, 0.2);
   padding: 13px 0px;
   min-width: 240px;
@@ -115,18 +113,18 @@
 }
 
 .dark .form-btnn{
-  color: var(--main-text);
-  background: #4dfa6c;
+  color: rgb(0, 0, 165);
+  background: #eef5fd;
   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
   5px 5px 15px rgba(0, 0, 0, 0.7);
   padding: 13px 0px;
 }
 
 .dark .form-btnn:hover{
-  background: #4dfa6d85;
+  background: #567bf1;
   box-shadow: inset -2px -2px 6pc rgba(255,255,255,0.02),
   inset 2px 2px 6px rgba(0,0,0,0.8);
-  color: var(--light);
+  color: #567bf1;
 }
 
 @media screen and (max-width: 250px){
