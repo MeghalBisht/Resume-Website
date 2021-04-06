@@ -1,5 +1,4 @@
 ## Resume-Website
-**Personal Portfolio web application**
 
 ## Live at 
 https://meghal-resume.herokuapp.com/
