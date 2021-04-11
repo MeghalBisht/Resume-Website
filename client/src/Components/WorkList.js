@@ -16,7 +16,7 @@ const workList = [
         duration: "Nov 2020 - Jan 2021",
         src:codeheat,
         link:"https://codeheat.org/",
-        desc: "Contributed to various FOSSASIA projects, was selected as the Grand Prize Winner for the codeheat competition. Subsequently got an internship offer at FOSSASIA."
+        desc: "Contributed to various FOSSASIA projects, was selected as the Grand Prize Winner for the codeheat competition. Subsequently got an internship offer from FOSSASIA."
     },
     {
         title: "Campk12",
