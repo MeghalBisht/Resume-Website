@@ -2,10 +2,26 @@ import codeheat from "../images/codeheat.png";
 import campk12 from "../images/campk12.png";
 import fossasia from "../images/fossasia.png";
 import gamoby from "../images/gamoby.png";
+import gsoc from "../images/gsoc.jpeg"
+import clickpost from "../images/clickpost.png"
 
 const workList = [
     {
-        title: "SDE at FOSSASIA",
+        title: "SDE Intern at ClickPost",
+        duration: "Aug 2021 - Present",
+        src:clickpost,
+        link:"https://www.clickpost.in/",
+        desc: ""
+    },
+    {
+        title: "Developer at Google Summer of Code",
+        duration: "June 2021 - Aug 2021",
+        src:gsoc,
+        link:"https://summerofcode.withgoogle.com/projects/?sp-search=Meghal%20Bisht",
+        desc: " Worked as a Student Developer with GSoC under FOSSASIA. Contributed to the Open Event project, added features, solved bugs, reviewed other's code and increased code quality. Stack used - Ember, Javascript, Typescript and Python, Flask (Backend)"
+    },
+    {
+        title: "SDE Intern at FOSSASIA",
         duration: "Feb 2021 - Present",
         src:fossasia,
         link:"https://eventyay.com/",
@@ -19,7 +35,7 @@ const workList = [
         desc: "Contributed to various FOSSASIA projects, was selected as the Grand Prize Winner for the codeheat competition. Subsequently got an internship offer from FOSSASIA."
     },
     {
-        title: "Campk12",
+        title: "Intern at Campk12",
         duration: "July 2020 - March 2021",
         src:campk12,
         link:"https://campk12.com/",

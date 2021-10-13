@@ -13,7 +13,7 @@ function About() {
         <h1>About Me</h1>
         <p>
           Myself Meghal Bisht, a 20 year old undergraduate student. Currently, I
-          am in 3rd year persuing BTech in (C.S.E) from <a rel="noopener noreferrer" target="_blank" href="http://aiactr.ac.in/">AIACTR (NSUT East Campus)</a>, Delhi.
+          am in final year persuing BTech in (C.S.E) from <a rel="noopener noreferrer" target="_blank" href="http://aiactr.ac.in/">AIACTR (NSUT East Campus)</a>, Delhi.
         </p>
         <p>
           Following below are links to my profile to know more about me, and the

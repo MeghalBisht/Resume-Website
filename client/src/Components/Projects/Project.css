@@ -23,7 +23,7 @@
 .project-list img{
   z-index: 99;
   min-width: 250px;
-  height: 290px;
+  height: 280px;
   opacity: 1;
   object-fit: cover;
   width: 100%;
@@ -32,6 +32,7 @@
 
 .project-wrapper{
   max-width: 610px;
+  width: 610px;
   margin: 10px;
   position: relative;
   overflow: hidden;
