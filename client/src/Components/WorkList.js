@@ -22,7 +22,7 @@ const workList = [
     },
     {
         title: "SDE Intern at FOSSASIA",
-        duration: "Feb 2021 - Present",
+        duration: "Jan 2021 - Jun 2021",
         src:fossasia,
         link:"https://eventyay.com/",
         desc: "Worked on the open event project which allows hosting events online. Open Event comprises of two components, Open Event Frontend and Open Event Server. Stack used - Ember, Javascript, Typescript and Python, Flask (Backend)"
